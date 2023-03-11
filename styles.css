@@ -31,8 +31,16 @@
     padding: 15px;
 }
 .submit-button{
+    font-weight: bold;
     border-radius: 50px;
     padding:10px;
+}
+.submit-button:hover{
+    background-color: rgba(10, 44, 83, 0.932);
+}
+.submit-button-or:hover{
+    background-color: rgba(169, 207, 238, 0.219);
+    color: black;
 }
 
 form{
@@ -42,23 +50,27 @@ form{
 img{
     vertical-align: middle;
 }
-body{
-   # background-color: yellow;
-}
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
-  @media only screen and (max-width: 790px) {
+
+.form-or {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #38363698; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .form-or .span-or { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+
+  
+@media only screen and (max-width: 790px) {
     form {
       width:100%;
     }
     .header{
         font-size: 32px;
-    }
-    .image1-div{
-    
     }
     .image1{
         display: block;
