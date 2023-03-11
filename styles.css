@@ -1,9 +1,9 @@
 .navbar-nav li button{
-    font-size: 25px;
+    font-size: 15px;
     border-radius: 50px;
-    padding: 15px 40px ;
+    padding: 10px 20px ;
     font-weight: bold;
-    border-width: 2px;
+    border-width: 1px;
 }
 
 .navbar-nav li button:hover{
@@ -13,4 +13,78 @@
 #sign-in-button:hover{
     background-color: rgba(115, 195, 211, 0.144);
     color: darkblue;
+}
+
+.header{
+    font-size: 55px;
+    color:rgba(128, 43, 3, 0.781);
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.forgot-password:hover{
+
+    text-decoration: underline;
+}
+
+.form-control{
+    padding: 15px;
+}
+.submit-button{
+    border-radius: 50px;
+    padding:10px;
+}
+
+form{
+    width: 380px;
+}
+
+img{
+    vertical-align: middle;
+}
+body{
+   # background-color: yellow;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 790px) {
+    form {
+      width:100%;
+    }
+    .header{
+        font-size: 32px;
+    }
+    .image1-div{
+    
+    }
+    .image1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 275px;
+        
+    }
+  }
+
+@media only screen and (min-width: 1180px){
+    
+    .navigation-bar{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    form{
+        margin-left: 20%;
+    }
+    .navbar-brand{
+        margin-left: -10px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .brand{
+        width: 140px;
+    }
 }
