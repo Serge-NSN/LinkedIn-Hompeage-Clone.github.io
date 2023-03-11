@@ -63,7 +63,23 @@ img{
      background:#fff; 
      padding:0 10px; 
  }
+ .section-two-container{
+    
+ }
 
+ .section-two{
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(220, 220, 220, 0.39);
+ }
+ .topic{
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    margin: 5px 2px;
+ }
+
+ /* Media Queries */
   
 @media only screen and (max-width: 790px) {
     form {
