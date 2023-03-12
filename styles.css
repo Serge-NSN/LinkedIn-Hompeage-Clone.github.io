@@ -87,7 +87,7 @@ img{
     color: darkblue;
  }
 
- .section-three, .section-four, .section-five{
+ .section-three, .section-four, .section-five, .section-six{
     padding-top: 50px;
     padding-bottom: 50px;
  }
@@ -102,6 +102,9 @@ img{
  .section-five{
     background-color: rgba(150, 168, 177, 0.322);
  }
+.section-six{
+    padding-top: 100px;
+}
  /* Media Queries */
   
 @media only screen and (max-width: 790px) {
@@ -121,6 +124,9 @@ img{
     .open-to-work{
         padding-top: 50px; 
     }
+    .skills-to-succeed{
+        padding-top: 40px;
+    }
   }
 
 @media only screen and (min-width: 1180px){
@@ -135,12 +141,16 @@ img{
     .navbar-brand{
         margin-left: -10px;
     }
-    .section-two, .section-three, .section-four, .section-five{
+    .section-two, .section-three, .section-four, 
+    .section-five, .section-six{
         padding-left: 14%;
         padding-right: 14%;
     }
     .open-to-work{
         padding-top: 100px;
+    }
+    .skills-to-succeed{
+        padding-right: 250px;
     }
 
 }
