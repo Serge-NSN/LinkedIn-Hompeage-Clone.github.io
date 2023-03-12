@@ -87,9 +87,13 @@ img{
     color: darkblue;
  }
 
- .section-three{
+ .section-three, .section-four{
     padding-top: 50px;
     padding-bottom: 50px;
+ }
+
+ .section-four{
+    background-color: rgba(220, 220, 220, 0.39);
  }
  #more{
     display: none;
@@ -125,7 +129,7 @@ img{
     .navbar-brand{
         margin-left: -10px;
     }
-    .section-two, .section-three{
+    .section-two, .section-three, .section-four{
         padding-left: 14%;
         padding-right: 14%;
     }
