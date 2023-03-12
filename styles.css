@@ -64,10 +64,6 @@ img{
      background:#fff; 
      padding:0 10px; 
  }
- .section-two-container{
-    /* background-color: rgba(220, 220, 220, 0.39); */
-    
- }
 
  .section-two{
     margin-top: 20px;
@@ -112,19 +108,20 @@ img{
 @media only screen and (min-width: 1180px){
     
     .navigation-bar{
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 14%;
+        margin-right: 14%;
     }
     form{
-        margin-left: 20%;
+        margin-left: 28%;
     }
     .navbar-brand{
         margin-left: -10px;
     }
-    .section-two{
-        padding-left: 10%;
-        padding-right: 10%;
+    .section-two, .section-three{
+        padding-left: 14%;
+        padding-right: 14%;
     }
+
 }
 
 @media only screen and (min-width: 992px){
