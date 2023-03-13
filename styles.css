@@ -105,6 +105,21 @@ img{
 .section-six{
     padding-top: 100px;
 }
+
+.course-count{
+    color: grey;
+}
+
+.dropdown-item:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.dropdown-menu{
+    max-height: 400px;
+    overflow-y: scroll;
+    
+}
+
  /* Media Queries */
   
 @media only screen and (max-width: 790px) {
