@@ -87,7 +87,7 @@ img{
     color: darkblue;
  }
 
- .section-three, .section-four, .section-five, .section-six{
+ .section-three, .section-four, .section-five, .section-six, .section-eight{
     padding-top: 50px;
     padding-bottom: 50px;
  }
@@ -162,6 +162,10 @@ img{
     .image5{
         display: none;
     }
+    .section-eight{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
   }
 
 @media only screen and (min-width: 1180px){
@@ -177,7 +181,7 @@ img{
         margin-left: -10px;
     }
     .section-two, .section-three, .section-four, 
-    .section-five, .section-six
+    .section-five, .section-six, .section-eight
     {
         padding-left: 14%;
         padding-right: 14%;
